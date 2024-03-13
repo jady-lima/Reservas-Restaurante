@@ -68,7 +68,7 @@ class _HomeState extends State<Home>{
                   child: ElevatedButton(
                     child: Text(
                       "-1",
-                      style: TextStyle(fontStyle: 40.0, color: Colors.white),
+                      style: TextStyle(fontSize: 40.0, color: Colors.white),
                     ),
 
                     onPressed: () {
