@@ -33,7 +33,7 @@ class _HomeState extends State<Home>{
     return Stack(
       children: <Widget>[
         Image.asset(
-          "img/restaurante.jpg",
+          "Imagens/restaurante.jpg",
           fit: BoxFit.cover,
           height: 1000.0,
         ),
@@ -54,7 +54,7 @@ class _HomeState extends State<Home>{
                   child: ElevatedButton(
                     child: Text(
                       "+1", 
-                      style: TextStyle(fontSize: 40.0, color: Colors.white),
+                      style: TextStyle(fontSize: 40.0, color: Colors.black),
                     ),
 
                     onPressed: () {
@@ -68,7 +68,7 @@ class _HomeState extends State<Home>{
                   child: ElevatedButton(
                     child: Text(
                       "-1",
-                      style: TextStyle(fontSize: 40.0, color: Colors.white),
+                      style: TextStyle(fontSize: 40.0, color: Colors.black),
                     ),
 
                     onPressed: () {
